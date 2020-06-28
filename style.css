@@ -1,0 +1,47 @@
+*{
+    /*margin:0;
+    padding:0;*/
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(194, 190, 181);
+}
+img{
+    margin-left: 100px;
+}
+
+.par{
+    text-align: center;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(8, 8, 14);
+    color: white;
+    min-height: 10vh;
+
+}
+.lists {
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+    width: 50%;
+    align-items: center;
+}
+.lists li a{
+    text-decoration: none;
+    color: white
+}
+table{
+    border-width: 100;
+}
+img{
+    width: 100px;
+    height: 100;
+    
+}
+
